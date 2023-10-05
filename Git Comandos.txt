@@ -1,0 +1,23 @@
+git config user.name
+git config user.email
+
+git config --global --unset user.name
+git config --global --unset user.email
+^ Desvincular as contas
+
+git init
+^ Iniciar o repositorio
+
+git config --global user.name "nome"
+git config --global user.email "email"
+
+git add . <<<< Ponto seleciona todos os arquivos da pasta
+^ Coloca os arquivos em uma pasta parcial
+
+git status
+^ Mostra o estado dos arquivos
+
+git commit -m "mensagem"
+	    ^ Para colocar uma mensagem
+^ Salva o arquivo no repisitorio local (ainda não foi para o Git)
+
